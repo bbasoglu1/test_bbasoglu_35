@@ -181,9 +181,9 @@
           v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
           id="47b25b43-07e1-410f-ac21-81202bc11397"
           v-bind:style="{'color':'#747474','width':'239.94px','height':'33.9915px','zIndex':18,'fontSize':'15.003748125px','maxWidth':'','minWidth':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'1.05026236875','marginLeft':'0px','paddingTop':'0px','textShadow':'','visibility':'visible','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','textDecoration':'none'}"/>
-        <WAlert top="23.147058823529413%" v-bind:fade="false" left="15.101190476190476%" v-bind:pill="false"
-          show="false" size="md" v-bind:snapX="false" v-bind:snapY="false" v-bind:isLink="false" v-bind:squared="false"
-          hrefLink="" position="absolute" alertLabel="This alert will dismiss after time lapse" background="#17a2b8"
+        <WAlert top="81.19736696944067%" v-bind:fade="false" left="51.37032943724394%" v-bind:pill="false" show="false"
+          size="md" v-bind:snapX="false" v-bind:snapY="false" v-bind:isLink="false" v-bind:squared="false" hrefLink=""
+          position="absolute" alertLabel="This alert will dismiss after time lapse" background="#17a2b8"
           buttonLabel="Show alert with count-down timer" v-bind:dismissible="false" alertVariant="warning"
           dismissLabel="Close" ncTypography="body1" verticalWidth="60px" buttonsVariant="info"
           v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'buttonLabel','displayName':'ButtonLabel'},{'type':'string','propName':'alertLabel','displayName':'AlertLabel'}]}"
