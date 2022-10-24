@@ -9,8 +9,8 @@
       v-bind:marginTop="0" v-bind:marginLeft="0" v-bind:marginRight="0" v-bind:marginBottom="0"
       v-bind:style="{'height':'auto','background':'transparent','paddingTop':'0px','borderColor':'','borderStyle':'solid','borderWidth':'0px','paddingLeft':'0px','borderRadius':'0px','paddingRight':'0px','paddingBottom':'0px','borderTopWidth':'0px','borderLeftWidth':'0px','borderRightWidth':'0px','borderBottomWidth':'0px','borderTopLeftRadius':'1px','borderTopRightRadius':'1px','borderBottomLeftRadius':'1px','borderBottomRightRadius':'1px'}"
       slot="r0-c0" area="r0-c0">
-      <NucGroupElement top="0%" left="0%" v-bind:snapX="false" v-bind:snapY="false" v-bind:isLock="true" bgColor=""
-        position="absolute" ncTooltipText="" id="003895b6-0a4e-48ef-a88b-c6e5d31d062a"
+      <NucGroupElement top="-7.868020304568528%" left="0%" v-bind:snapX="false" v-bind:snapY="true"
+        v-bind:isLock="false" bgColor="" position="absolute" ncTooltipText="" id="003895b6-0a4e-48ef-a88b-c6e5d31d062a"
         v-bind:style="{'color':'#FFFFFF','width':'1050px','height':'637.5px','zIndex':2,'fontSize':'8.44171875px','maxWidth':'','minWidth':'5.6278125','tabIndex':'-0.56278125','boxShadow':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'5.6278125','textAlign':'center','background':'','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'0.7034765625','marginLeft':'0px','paddingTop':'','textShadow':'','visibility':'visible','borderColor':'#767676','borderStyle':'solid','marginRight':'0px','paddingLeft':'','marginBottom':'0px','paddingRight':'','paddingBottom':'','borderTopWidth':'0.56278125px','textDecoration':'none','borderLeftWidth':'0.56278125px','borderRightWidth':'0.56278125px','borderBottomWidth':'0.56278125px','borderTopLeftRadius':'0px','borderTopRightRadius':'0px','borderBottomLeftRadius':'0px','borderBottomRightRadius':'0px'}">
         <WImage top="12.349117920148561%" left="0%" v-bind:blank="false" v-bind:snapX="false" v-bind:snapY="false"
           v-bind:rounded="false" stretch="none"
@@ -181,6 +181,18 @@
           v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
           id="47b25b43-07e1-410f-ac21-81202bc11397"
           v-bind:style="{'color':'#747474','width':'180px','height':'25.5px','zIndex':18,'fontSize':'11.255625px','maxWidth':'','minWidth':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'0.78789375','marginLeft':'0px','paddingTop':'0px','textShadow':'','visibility':'visible','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','textDecoration':'none'}"/>
+        <WAlert v-bind:fade="false" v-bind:pill="false" show="false" size="md" v-bind:isLink="false"
+          v-bind:squared="false" hrefLink="" alertLabel="This alert will dismiss after time lapse" background="#17a2b8"
+          buttonLabel="Show alert with count-down timer" v-bind:dismissible="false" alertVariant="warning"
+          dismissLabel="Close" ncTypography="body1" verticalWidth="60px" buttonsVariant="info"
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'buttonLabel','displayName':'ButtonLabel'},{'type':'string','propName':'alertLabel','displayName':'AlertLabel'}]}"
+          verticalHeight="60px" horizontalWidth="" progressVariant="warning" v-bind:dismissCountDown="5"
+          horizontalHeight="" ncClickFontColor="#FFFFFF" ncFocusFontColor="#FFFFFF" ncHoverFontColor="#FFFFFF"
+          ncClickBorderColor="#17a2b8" ncFocusBorderColor="#17a2b8" ncHoverBorderColor="#17a2b8"
+          ncClickBackgroundColor="#17a2b8" ncFocusBackgroundColor="#17a2b8" ncHoverBackgroundColor="#17a2b8"
+          position="absolute" top="23.147058823529413%" left="15.101190476190476%" v-bind:snapX="false"
+          v-bind:snapY="false" id="2154d396-c3fd-42bf-80ac-375470370293"
+          v-bind:style="{'color':'#FFFFFF','width':'','height':'','fontSize':'9.008px','maxWidth':'','minWidth':'','tabIndex':'0px','boxShadow':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','fontFamily':'Roboto-Regular,Roboto','fontWeight':'225.2','lineHeight':'13.511999999999999px','marginLeft':'0px','paddingTop':'0px','textShadow':'','visibility':'visible','borderColor':'#fff3cd','borderStyle':'none','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','borderTopWidth':'0px','textDecoration':'none','borderLeftWidth':'0px','borderRightWidth':'0px','horizontalHeight':'','borderBottomWidth':'0px','borderTopLeftRadius':'0px','borderTopRightRadius':'0px','borderBottomLeftRadius':'0px','borderBottomRightRadius':'0px','zIndex':19}"/>
       </NucGroupElement>
     </NucGridCell>
   </NucGridPage>
